@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev src",
+    "docs:build": "vuepress build sec"
+  },
+  "name": "inet-club-home",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.35"
+  }
+}
