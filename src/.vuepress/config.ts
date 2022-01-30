@@ -6,10 +6,12 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'en-US',
   title: 'INet',
   description: 'INet',
-
   // 主题和它的配置
   theme: '@vuepress/theme-default',
   themeConfig: {
     logo: '/img/logo.svg',
+    editLink: false,
+    lastUpdated: false,
+    contributors: false
   },
 })

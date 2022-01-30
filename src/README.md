@@ -16,22 +16,28 @@ sidebar: false
 
 <section id="highlights" class="vt-box-container">
     <div class="vt-box">
-      <h2>Friendly</h2>
+      <h2>友好的</h2>
       <p>
-        In a team, there is no division between superiors and subordinates, only the interaction of opinions and ideas.
+        在一个团队中，没有上下级的划分，只有意见和想法的交互。
       </p>
     </div>
     <div class="vt-box">
-      <h2>Open</h2>
+      <h2>开放</h2>
       <p>
-        All thoughts here are open and independent, and they can fully develop their own thoughts.
+        这里的一切思想都是开放的、独立的，可以充分发展自己的思想。
       </p>
     </div>
     <div class="vt-box">
-      <h2>Versatile</h2>
+      <h2>多才多艺</h2>
       <p>
-        Can completely release your nature, without any constraints, everyone will help you release yourself.
+        可以完全释放你的本性，没有任何束缚，每个人都会帮你释放自己。
       </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="footer">
+      MIT Licensed | Copyright © 2022-present INet
     </div>
   </section>
 
@@ -192,6 +198,13 @@ html:not(.dark) .accent,
   margin-bottom: 3em;
 }
 
+.footer {
+    padding: 2.5rem;
+    border-top: 1px solid var(--c-border);
+    text-align: center;
+    transition: border-color var(--t-color);
+}
+
 @media (max-width: 960px) {
   .tagline {
     font-size: 64px;
@@ -235,4 +248,4 @@ html:not(.dark) .accent,
     font-size: 36px;
   }
 }
-</style>
+</style> 
