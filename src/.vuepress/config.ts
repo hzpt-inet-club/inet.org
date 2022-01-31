@@ -43,8 +43,8 @@ export default defineUserConfig<DefaultThemeOptions>({
             link:'/features/sign/'
           },
           {
-            text:'其他',
-            link:'/features/other/'
+            text:'vue-jumper',
+            link:'https://xiaoxunyao.github.io/vue-junmper/'
           }
         ],
       },
