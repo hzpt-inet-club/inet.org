@@ -1,7 +1,7 @@
 {
   "scripts": {
     "docs:dev": "vuepress dev src",
-    "docs:build": "vuepress build sec"
+    "docs:build": "vuepress build src"
   },
   "name": "inet-club-home",
   "version": "1.0.0",
