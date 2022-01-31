@@ -3,3 +3,5 @@ page: true
 ---
 
 <h1 align="center">博客目录</h1>
+
+- [TypeScript](/blog/Serializable.html)
