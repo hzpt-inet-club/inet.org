@@ -103,4 +103,4 @@ yarn docs:dev
 
 ## 使用许可
 
-
+[MIT](https://github.com/hzpt-inet-club/inet.org/blob/master/LICENSE) © hzpt-inet-club
