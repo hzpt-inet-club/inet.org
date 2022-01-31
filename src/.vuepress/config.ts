@@ -74,9 +74,21 @@ export default defineUserConfig<DefaultThemeOptions>({
       ],
       "/blog/":[
         {
-          text:'',
-          link:''
-        }
+          text:'Serializable',
+          link:'/blog/Serializable.md'
+        },
+        {
+          text:'EasyPOI',
+          link:'/blog/EasyPOI.md'
+        },
+        {
+          text:'EasyPOI',//TypeScript-course.md
+          link:'/blog/EasyPOI.md'
+        },
+        {
+          text:'TypeScript',
+          link:'/blog/TypeScript-course.md'
+        },
       ]
     },
     logo: '/img/logo.svg',
