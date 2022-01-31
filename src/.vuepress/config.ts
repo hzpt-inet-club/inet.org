@@ -49,9 +49,35 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
       {
         text: '收藏',
-        link: 'collect'
+        link: '/collect/'
+      },
+      {
+        text: '博客',
+        link: '/blog/'
       }
     ],
+    sidebar: {
+      "/team/":[
+        {
+          text:'现在的',
+          link:'/team/README.md'
+        },
+        {
+          text:'2019年',
+          link:'/team/2019Team.md'
+        },
+        {
+          text:'2018年',
+          link:'/team/2018Team.md'
+        },
+      ],
+      "/blog/":[
+        {
+          text:'',
+          link:''
+        }
+      ]
+    },
     logo: '/img/logo.svg',
     editLink: false,
     lastUpdated: false,
