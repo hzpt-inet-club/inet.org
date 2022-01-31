@@ -82,10 +82,6 @@ export default defineUserConfig<DefaultThemeOptions>({
           link:'/blog/EasyPOI.md'
         },
         {
-          text:'EasyPOI',//TypeScript-course.md
-          link:'/blog/EasyPOI.md'
-        },
-        {
           text:'TypeScript',
           link:'/blog/TypeScript-course.md'
         },
