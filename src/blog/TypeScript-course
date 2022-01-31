@@ -501,4 +501,4 @@ function identity2<T>(arg: T): T {
 ## 结尾
 
 > **该项目并不是让大家通过该项目直接掌握TypeScript，该项目仅仅只是作为不敢接触TypeScript的同学的一份小蛋糕。如果想完全掌握TypeScript，可以去官网进行文档学习，我相信如果完成了该项目的所有代码，各位同学对于阅读TypeScript的文档肯定是易如反掌。**
-
+ 
