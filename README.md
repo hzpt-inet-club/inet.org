@@ -57,10 +57,6 @@ yarn docs:dev
 
 ## 维护者
 
-| [011011100](https://github.com/011011100) | name | name | name |
-| --- | --- | --- | --- |
-|     |     |     |     |
-
 > 排名不分先后！
 
 | [011011100](https://github.com/011011100) | [13336778832](https://github.com/13336778832) | [Annnnnnovice](https://github.com/Annnnnnovice) | [Cxl-Xc](https://github.com/Cxl-Xc) |
