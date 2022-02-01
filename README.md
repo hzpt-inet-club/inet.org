@@ -15,20 +15,20 @@
 将所有的内容全部放置于 `src` 下，进行分文件夹存放。
 
 ```markdown
-- src <!-->根文件<-->
-  - .vuepress <!-->配置文件夹<-->
-    - img <!-->图片<-->
-      - logo.svg <!-->logo<-->
-    - config.ts <!-->配置文件<-->
-  - activity <!-->活动<-->
-  - blog <!-->博客<-->
-  - collect <!-->收藏<-->
-  - honor <!-->荣誉<-->
-  - introduce <!-->介绍<-->
-  - news <!-->新闻<-->
-  - surroundings <!-->环境<-->
-  - team <!-->团队<-->
-  - README.md <!-->首页<-->
+- src <!-- 根文件 -->
+  - .vuepress <!-- 配置文件夹 -->
+    - img <!-- 图片 -->
+      - logo.svg <!-- logo -->
+    - config.ts <!-- 配置文件 -->
+  - activity <!-- 活动 -->
+  - blog <!-- 博客 -->
+  - collect <!-- 收藏 -->
+  - honor <!-- 荣誉 -->
+  - introduce <!-- 介绍 -->
+  - news <!-- 新闻 -->
+  - surroundings <!-- 环境 -->
+  - team <!-- 团队 -->
+  - README.md <!-- 首页 -->
 ```
 
 ### 部署介绍
