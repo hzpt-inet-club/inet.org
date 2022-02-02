@@ -1,5 +1,5 @@
 <h1 align="center">
-typeScript
+TypeScript
 </h1>
 
 ## 介绍
