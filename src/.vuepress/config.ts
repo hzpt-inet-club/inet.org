@@ -74,16 +74,16 @@ export default defineUserConfig<DefaultThemeOptions>({
       ],
       "/blog/":[
         {
+          text:'TypeScript',
+          link:'/blog/detail/TypeScript-course.md'
+        },
+        {
           text:'Serializable',
-          link:'/blog/Serializable.md'
+          link:'/blog/detail/Serializable.md'
         },
         {
           text:'EasyPOI',
-          link:'/blog/EasyPOI.md'
-        },
-        {
-          text:'TypeScript',
-          link:'/blog/TypeScript-course.md'
+          link:'/blog/detail/EasyPOI.md'
         },
       ]
     },
