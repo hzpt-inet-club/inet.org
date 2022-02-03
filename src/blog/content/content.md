@@ -5,6 +5,38 @@ sidebar: false
 
 <h1 align="center">目录</h1>
 
+<ul>
+  <li v-for="value in datas">
+    <b>{{value.name}}</b>
+    <a :href="value.link" style="float:right;text-decoration：none">Read more →</a>
+  </li>
+</ul>
+
+<script setup lang="ts">
+  import {datas} from './datas'
+  // let datas=[
+  //   {
+  //     name:'TypeScript',
+  //     link:'../detail/TypeScript-course.md'
+  //   },
+  //   {
+  //     name:'Serializable',
+  //     link:'../detail/Serializable.md'
+  //   },
+  //   {
+  //     name:'EasyPOI',
+  //     link:'../detail/EasyPOI.md'
+  //   },
+  // ]
+</script>
+
+<style>
+a{ text-decoration:none}
+
+a:hover{ text-decoration:none}
+</style>
+
+<!--
 - [TypeScript](../detail/TypeScript-course.md)
 - [Serializable](../detail/Serializable.md)
 - [EasyPOI](../detail/EasyPOI.md)
@@ -34,3 +66,4 @@ sidebar: false
   - [策略模式](../detail/design-patterns/20.md)
   - [模板模式](../detail/design-patterns/21.md)
   - [访问者模式](../detail/design-patterns/22.md)
+-->
