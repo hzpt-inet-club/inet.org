@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@vuepress/plugin-docsearch": "^2.0.0-beta.35",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.35",
     "typescript": "^4.5.5"
   }
 }

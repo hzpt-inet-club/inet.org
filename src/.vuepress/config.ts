@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
+import { path } from '@vuepress/utils'
 
 export default defineUserConfig<DefaultThemeOptions>({
   base: '/inet.org/',
@@ -204,6 +205,14 @@ export default defineUserConfig<DefaultThemeOptions>({
   },
 
   plugins: [
+    [
+      '@vuepress/register-components',
+      {
+        components: {
+          myContent: path.resolve(__dirname, './components/MyContent.vue'),
+        },
+      },
+    ],
     [
       '@vuepress/plugin-docsearch',
       {
