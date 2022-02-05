@@ -79,6 +79,10 @@ export default defineUserConfig<DefaultThemeOptions>({
       ],
       "/blog/":[
         {
+          text:'博客介绍',
+          link:'/blog/introduce/introduce.md'
+        },
+        {
           text:'TypeScript',
           link:'/blog/detail/TypeScript-course.md'
         },
@@ -213,7 +217,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       '@vuepress/register-components',
       {
         components: {
-          myContent: path.resolve(__dirname, './components/MyContent.vue'),
+          businessCard: path.resolve(__dirname, './components/businessCard/BusinessCard.vue'),
         },
       },
     ],
