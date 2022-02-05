@@ -7,7 +7,7 @@ actions:
   - text: 阅读博客
     link: detail/TypeScript-course.md
     type: primary
-  - text: 博客目录
-    link: content/content.md
+  - text: 博客介绍
+    link: introduce/introduce.md
     type: secondary
 ---
