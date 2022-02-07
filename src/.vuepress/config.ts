@@ -45,11 +45,15 @@ export default defineUserConfig<DefaultThemeOptions>({
           },
           {
             text:'vue-jumper',
-            link:'https://xiaoxunyao.github.io/vue-junmper/'
+            link:'https://jumper.elonehoo.xyz'
           },
           {
             text:'英语语法笔记',
             link:'https://hzpt-inet-club.github.io/english-note/'
+          },
+          {
+            text:'2048',
+            link:'https://2048.elonehoo.xyz'
           }
         ],
       },
