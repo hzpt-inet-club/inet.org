@@ -222,6 +222,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       {
         components: {
           businessCard: path.resolve(__dirname, './components/businessCard/BusinessCard.vue'),
+          contributors: path.resolve(__dirname, './components/contributors/Contributors.vue'),
         },
       },
     ],
