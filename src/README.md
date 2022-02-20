@@ -14,25 +14,11 @@ sidebar: false
     </h1>
 </section>
 
+
 <section id="highlights" class="vt-box-container">
-    <div class="vt-box">
-      <h2>友好的</h2>
-      <p>
-        在一个团队中，没有上下级的划分，只有意见和想法的交互。
-      </p>
-    </div>
-    <div class="vt-box">
-      <h2>开放</h2>
-      <p>
-        这里的一切思想都是开放的、独立的，可以充分发展自己的思想。
-      </p>
-    </div>
-    <div class="vt-box">
-      <h2>多才多艺</h2>
-      <p>
-        可以完全释放你的本性，没有任何束缚，每个人都会帮你释放自己。
-      </p>
-    </div>
+  <p op80 text-lg max-w-150 text-center leading-7>
+    <contributors />
+  </p>
   </section>
 
   <section>
@@ -203,6 +189,16 @@ html:not(.dark) .accent,
     border-top: 1px solid var(--c-border);
     text-align: center;
     transition: border-color var(--t-color);
+}
+
+.features-list li {
+  list-style: none;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.features-list {
+  padding: 0;
 }
 
 @media (max-width: 960px) {
