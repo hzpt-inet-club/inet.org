@@ -6,7 +6,7 @@
 
 ## 背景
 
-由 [晓寻遥](https://github.com/xiaoxunyao) 提出建立官网的想法，便开始着手准备进行官网的建造，创建了一个「inet.org」的仓库用于放置官网的内容，在官网的设计过程中，由于「晓寻遥」是一个「vue.js」的“脑残粉”，所以一直推荐「[VuePress](https://v2.vuepress.vuejs.org/)」和「[VitePress](https://vitepress.vuejs.org/)」,考虑再三还是使用了「vuepress」。
+由 [Elone Hoo](https://github.com/xiaoxunyao) 提出建立官网的想法，便开始着手准备进行官网的建造，创建了一个「inet.org」的仓库用于放置官网的内容，在官网的设计过程中，由于「Elone Hoo」是一个「vue.js」的“脑残粉”，所以一直推荐「[VuePress](https://v2.vuepress.vuejs.org/)」和「[VitePress](https://vitepress.vuejs.org/)」,考虑再三还是使用了「vuepress」。
 
 ## 介绍
 
