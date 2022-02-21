@@ -5,7 +5,7 @@ import { path } from '@vuepress/utils'
 export default defineUserConfig<DefaultThemeOptions>({
   base: '/inet.org/',
   // 站点配置
-  lang: 'en-US',
+  lang: 'zh-CN',
   title: 'INet',
   description: 'INet',
   // 主题和它的配置
