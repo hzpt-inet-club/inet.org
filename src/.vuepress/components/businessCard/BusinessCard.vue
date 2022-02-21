@@ -13,11 +13,11 @@ let datas = teams.get(props.keyName)
   <div class="alone">
     <div v-for="(data,key) in datas" v-bind:key="key">
       <div class="card">
-        <div class="photo"><img :src="data.avatar" alt=""></div>
+        <div class="photo"><img :src="`https://github.com/${data.avatar}.png`" alt=""></div>
         <h1>{{data.name}}</h1>
         <h2>{{data.jobTitle}}</h2>
         <p>{{data.introduce}}</p>
-        <a :href="data.link">了解更多</a>
+        <a :href="`https://github.com/${data.link}`>了解更多</a>
       </div>
     </div>
   </div>

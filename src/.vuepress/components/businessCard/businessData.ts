@@ -1,15 +1,13 @@
 class Team{
-  avatar:string
+  githubName:string
   name:string
   jobTitle:string
-  link:string
   introduce:string
 
-  constructor(avatar:string, name:string, jobTitle:string, link:string, introduce:string) {
-    this.avatar = avatar
+  constructor(githubName:string, name:string, jobTitle:string, introduce:string) {
+    this.githubName = githubName
     this.name = name
     this.jobTitle = jobTitle
-    this.link = link
     this.introduce = introduce
   }
 }
@@ -19,59 +17,51 @@ export const teams:Map<string,Team[]> = new Map([
     '现在的',
     [
       {
-        avatar:'https://avatars.githubusercontent.com/u/86834550?v=4',
+        githubName:'Cxl-Xc',
         name:'Cxl-Xc',
         jobTitle:'社长',
-        link:'https://github.com/Cxl-Xc',
         introduce:'未知'
       },
       {
-        avatar:'https://avatars.githubusercontent.com/u/90031847?v=4',
+        avatar:'xinqiyi1024',
         jobTitle:'不知',
         name:'xinqiyi1024',
-        link:'https://github.com/xinqiyi1024',
         introduce:'未知'
       },
       {
-        avatar:'https://avatars.githubusercontent.com/u/80606978?v=4',
+        avatar:'dai147444612',
         name:'dai147444612',
         jobTitle:'副社长',
-        link:'https://github.com/dai147444612',
         introduce:'未知'
       },
       {
-        avatar:'https://avatars.githubusercontent.com/u/74953343?v=4',
+        avatar:'011011100',
         name:'011011100',
         jobTitle:'不知',
-        link:'https://github.com/011011100',
         introduce:'未知'
       },
       {
-        avatar:'https://avatars.githubusercontent.com/u/86935263?v=4',
+        avatar:'13336778832',
         name:'13336778832',
         jobTitle:'不知',
-        link:'https://github.com/13336778832',
         introduce:'未知'
       },
       {
-        avatar:'https://avatars.githubusercontent.com/u/90119703?v=4',
+        avatar:'wxcdico',
         name:'wxcdico',
         jobTitle:'不知',
-        link:'https://github.com/wxcdico',
         introduce:'未知'
       },
       {
-        avatar:'https://avatars.githubusercontent.com/u/87255211?v=4',
+        avatar:'namelesslight',
         name:'namelesslight',
         jobTitle:'不知',
-        link:'https://github.com/namelesslight',
         introduce:'未知'
       },
       {
-        avatar:'https://avatars.githubusercontent.com/u/82481893?v=4',
+        avatar:'Zhengke0509',
         name:'Zhengke0509',
         jobTitle:'不知',
-        link:'https://github.com/Zhengke0509',
         introduce:'未知'
       },
     ]
@@ -80,52 +70,45 @@ export const teams:Map<string,Team[]> = new Map([
     '2019年',
     [
       {
-        avatar:'https://avatars.githubusercontent.com/u/75360570?v=4',
+        avatar:'woshixiaotugo',
         name:'woshixiaotugo',
         jobTitle:'社长',
-        link:'https://github.com/woshixiaotugo',
         introduce:'未知'
       },
       {
-        avatar:'https://avatars.githubusercontent.com/u/83265180?v=4',
+        avatar:'sakurazro',
         name:'sakurazro',
         jobTitle:'副社长',
-        link:'https://github.com/sakurazro',
         introduce:'未知'
       },
       {
-        avatar:'https://avatars.githubusercontent.com/u/43719490?v=4',
+        avatar:'xiaoxunyao',
         name:'xiaoxunyao',
         jobTitle:'副社长',
-        link:'https://github.com/xiaoxunyao',
         introduce:'全职开源的码农'
       },
       {
-        avatar:'https://avatars.githubusercontent.com/u/69466837?v=4',
+        avatar:'wuaqing',
         name:'wuaqing',
         jobTitle:'财务',
-        link:'https://github.com/wuaqing',
         introduce:'未知'
       },
       {
-        avatar:'https://avatars.githubusercontent.com/u/71318039?v=4',
+        avatar:'qiuqiuya-get',
         name:'qiuqiuya-get',
         jobTitle:'学习部',
-        link:'https://github.com/qiuqiuya-get',
         introduce:'未知'
       },
       {
-        avatar:'https://avatars.githubusercontent.com/u/71317286?v=4',
+        avatar:'missyou-zxt',
         name:'missyou-zxt',
         jobTitle:'维修部',
-        link:'https://github.com/missyou-zxt',
         introduce:'未知'
       },
       {
-        avatar:'https://avatars.githubusercontent.com/u/63771111?v=4',
+        avatar:'FanHoozy',
         name:'FanHoozy',
         jobTitle:'学习部',
-        link:'https://github.com/FanHoozy',
         introduce:'未知'
       },
     ]
