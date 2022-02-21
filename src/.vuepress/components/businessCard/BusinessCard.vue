@@ -13,11 +13,11 @@ let datas = teams.get(props.keyName)
   <div class="alone">
     <div v-for="(data,key) in datas" v-bind:key="key">
       <div class="card">
-        <div class="photo"><img :src="data.avatar" alt=""></div>
+        <div class="photo"><img :src="`https://github.com/${data.githubName}.png`" alt=""></div>
         <h1>{{data.name}}</h1>
         <h2>{{data.jobTitle}}</h2>
         <p>{{data.introduce}}</p>
-        <a :href="data.link">了解更多</a>
+        <a :href="`https://github.com/${data.githubName}`">了解更多</a>
       </div>
     </div>
   </div>
@@ -68,8 +68,9 @@ let datas = teams.get(props.keyName)
     /* 保持原有尺寸比例，裁切长边 */
     object-fit: cover;
 }
-/* 默认大图 */
+
 .card .photo{
+    /* 默认大图 */
     /* 绝对定位 */
     position: absolute;
     top: 0;
