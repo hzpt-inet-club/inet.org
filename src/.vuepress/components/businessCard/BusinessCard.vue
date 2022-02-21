@@ -16,7 +16,7 @@ let datas = teams.get(props.keyName)
         <div class="photo"><img :src="`https://github.com/${data.githubName}.png`" alt=""></div>
         <h1>{{data.name}}</h1>
         <h2>{{data.jobTitle}}</h2>
-        <p>{{data.introduce}}</p>
+        <p v-html="data.introduce"></p>
         <a :href="`https://github.com/${data.githubName}`">了解更多</a>
       </div>
     </div>
