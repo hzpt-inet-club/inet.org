@@ -1,10 +1,11 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
+import { path } from '@vuepress/utils'
 
 export default defineUserConfig<DefaultThemeOptions>({
   base: '/inet.org/',
   // 站点配置
-  lang: 'en-US',
+  lang: 'zh-CN',
   title: 'INet',
   description: 'INet',
   // 主题和它的配置
@@ -44,7 +45,15 @@ export default defineUserConfig<DefaultThemeOptions>({
           },
           {
             text:'vue-jumper',
-            link:'https://xiaoxunyao.github.io/vue-junmper/'
+            link:'https://jumper.elonehoo.xyz'
+          },
+          {
+            text:'英语语法笔记',
+            link:'https://hzpt-inet-club.github.io/english-note/'
+          },
+          {
+            text:'2048',
+            link:'https://2048.elonehoo.xyz'
           }
         ],
       },
@@ -74,17 +83,131 @@ export default defineUserConfig<DefaultThemeOptions>({
       ],
       "/blog/":[
         {
-          text:'Serializable',
-          link:'/blog/Serializable.md'
-        },
-        {
-          text:'EasyPOI',
-          link:'/blog/EasyPOI.md'
+          text:'博客介绍',
+          link:'/blog/introduce/introduce.md'
         },
         {
           text:'TypeScript',
-          link:'/blog/TypeScript-course.md'
+          link:'/blog/detail/TypeScript-course.md'
         },
+        {
+          text:'Serializable',
+          link:'/blog/detail/Serializable.md'
+        },
+        {
+          text:'EasyPOI',
+          link:'/blog/detail/EasyPOI.md'
+        },
+        {
+          text:'Nginx',
+          link:'/blog/detail/Nginx.md'
+        },
+        {
+          text:'Docker',
+          link:'/blog/detail/Docker.md'
+        },
+        {
+          text:'Vue.js+Vite.js+TypeScript',
+          link:'/blog/detail/VVT.md'
+        },
+        {
+          text:'基于Java的设计模式',
+          collapsible: true,
+          children:[
+            {
+              text:'目录',
+              link:'/blog/detail/design-patterns/README.md'
+            },
+            {
+              text:'工厂模式',
+              link:'/blog/detail/design-patterns/01.md'
+            },
+            {
+              text:'抽象工厂模式',
+              link:'/blog/detail/design-patterns/02.md'
+            },
+            {
+              text:'建造者模式',
+              link:'/blog/detail/design-patterns/03.md'
+            },
+            {
+              text:'原型模式',
+              link:'/blog/detail/design-patterns/04.md'
+            },
+            {
+              text:'单例模式',
+              link:'/blog/detail/design-patterns/05.md'
+            },
+            {
+              text:'适配器模式',
+              link:'/blog/detail/design-patterns/06.md'
+            },
+            {
+              text:'桥接模式',
+              link:'/blog/detail/design-patterns/07.md'
+            },
+            {
+              text:'组合模式',
+              link:'/blog/detail/design-patterns/08.md'
+            },
+            {
+              text:'装饰器模式',
+              link:'/blog/detail/design-patterns/09.md'
+            },
+            {
+              text:'外观模式',
+              link:'/blog/detail/design-patterns/10.md'
+            },
+            {
+              text:'享元模式',
+              link:'/blog/detail/design-patterns/11.md'
+            },
+            {
+              text:'代理模式',
+              link:'/blog/detail/design-patterns/12.md'
+            },
+            {
+              text:'责任链模式',
+              link:'/blog/detail/design-patterns/13.md'
+            },
+            {
+              text:'命令模式',
+              link:'/blog/detail/design-patterns/14.md'
+            },
+            {
+              text:'迭代器模式',
+              link:'/blog/detail/design-patterns/15.md'
+            },
+            {
+              text:'中介者模式',
+              link:'/blog/detail/design-patterns/16.md'
+            },
+            {
+              text:'备忘录模式',
+              link:'/blog/detail/design-patterns/17.md'
+            },
+            {
+              text:'观察者模式',
+              link:'/blog/detail/design-patterns/18.md'
+            },
+            {
+              text:'状态模式',
+              link:'/blog/detail/design-patterns/19.md'
+            },
+            {
+              text:'策略模式',
+              link:'/blog/detail/design-patterns/20.md'
+            },
+            {
+              text:'模板模式',
+              link:'/blog/detail/design-patterns/21.md'
+            },
+            {
+              text:'访问者模式',
+              link:'/blog/detail/design-patterns/22.md'
+            }
+          ]
+        }
       ]
     },
     logo: '/img/logo.svg',
@@ -94,6 +217,15 @@ export default defineUserConfig<DefaultThemeOptions>({
   },
 
   plugins: [
+    [
+      '@vuepress/register-components',
+      {
+        components: {
+          businessCard: path.resolve(__dirname, './components/businessCard/BusinessCard.vue'),
+          contributors: path.resolve(__dirname, './components/contributors/Contributors.vue'),
+        },
+      },
+    ],
     [
       '@vuepress/plugin-docsearch',
       {
