@@ -85,7 +85,7 @@ export const teams:Map<string,Team[]> = new Map([
         githubName:'xiaoxunyao',
         name:'xiaoxunyao',
         jobTitle:'副社长',
-        introduce:'全职开源的码农'
+        introduce:'My name is Elone Hoo.Outside of programming and finish school and get a job, I enjoy video games.'
       },
       {
         githubName:'wuaqing',
