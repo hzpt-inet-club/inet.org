@@ -79,7 +79,7 @@ yarn docs:dev
 
 感谢以下参与项目的人：
 
-[![contributors](/contributors/inet.org-contributors.svg)](https://github.com/hzpt-inet-club/inet.org/graphs/contributors)
+[![contributors](https://opencollective.com/inet-club/contributors.svg?width=890&button=false)](https://github.com/hzpt-inet-club/inet.org/graphs/contributors)
 
 ## 使用许可
 
