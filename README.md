@@ -83,4 +83,4 @@ yarn docs:dev
 
 ## 使用许可
 
-[MIT](https://github.com/hzpt-inet-club/inet.org/blob/master/LICENSE) © hzpt-inet-club
+[MIT](https://github.com/hzpt-inet-club/inet.org/blob/master/LICENSE) Licensed | Copyright © 2022-present INet
