@@ -1,6 +1,6 @@
 ---
 page: true
-sidebar: false
+sidebar: true
 ---
 
 <h1 align="center">介绍</h1>
