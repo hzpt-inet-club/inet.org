@@ -20,11 +20,11 @@ export const teams:Map<string,Team[]> = new Map([
         githubName:'Cxl-Xc',
         name:'Cxl-Xc',
         jobTitle:'社长',
-        introduce:'未知'
+        introduce:'舔狗陈小离'
       },
       {
         githubName:'xinqiyi1024',
-        jobTitle:'不知',
+        jobTitle:'学习部',
         name:'xinqiyi1024',
         introduce:'未知'
       },
@@ -49,7 +49,7 @@ export const teams:Map<string,Team[]> = new Map([
       {
         githubName:'wxcdico',
         name:'wxcdico',
-        jobTitle:'不知',
+        jobTitle:'财务部',
         introduce:'未知'
       },
       {
