@@ -67,6 +67,16 @@ export default defineUserConfig<DefaultThemeOptions>({
       }
     ],
     sidebar: {
+        "/activity/":[
+        {
+          text:'E修哥',
+          link:'/activity/README.md'
+        },
+        {
+          text:'小先生科技讲坛',
+          link:'/activity/小先生科技讲坛.md'
+        },
+      ],
       "/team/":[
         {
           text:'现在的',
