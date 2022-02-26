@@ -3,4 +3,4 @@ page: true
 sidebar: true
 ---
 
-<h1 align="center">活动</h1>
+<h1 align="center">E修哥</h1>
