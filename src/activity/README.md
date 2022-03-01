@@ -3,84 +3,154 @@ page: true
 sidebar: true
 --- -->
 
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+    margin: 10px 0 15px 0;
+    border-collapse: collapse;
+}
+td,th { 
+    border: 1px solid #ddd;
+    padding: 3px 10px;
+}
+th {
+    padding: 5px 10px;  
+}
 
-<script setup>
-</script>
-
-<section id="hero">
-    <h1 class="tagline">
-      The
-      <span class="accent">INet</span>
-      <br />Studio
-    </h1>
-</section>
-
-
-<section id="highlights" class="vt-box-container">
-  <p op80 text-lg max-w-150 text-center leading-7>
-    <contributors />
-  </p>
-  </section>
-
-  <section>
-    <div class="footer">
-      MIT Licensed | Copyright © 2022-present INet
-    </div>
-  </section>
-
-
-<style scoped>
-/*markdown 代码样式*/
-tt, code, kbd, samp {
-font-family: consolas;
+a {
+    color: #0069d6;
 }
-.prettyprint, pre.prettyprint {
-background-color:#272822;
-border:1px solid #272822;
-overflow: hidden;
-margin:10px0;
-font-family:Helvetica,"Hiragino Sans GB","微软雅黑","Microsoft YaHei UI",SimSun,SimHei, arial, sans-serif;
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
 }
-.prettyprint.linenums, pre.prettyprint.linenums {
--webkit-box-shadow: inset 40px00#39382E, inset 41px 0 0 #464741;
--moz-box-shadow: inset 40px00#39382E, inset 41px 0 0 #464741;
-box-shadow: inset 40px00#39382E, inset 41px 0 0 #464741;
+a img {
+    border: none;
 }
-.prettyprint.linenums ol, pre.prettyprint.linenums ol {
-padding-left:28px!important;
-margin:0000px;
+p {
+    margin-bottom: 9px;
 }
-.prettyprint.linenums ol li, pre.prettyprint.linenums ol li {
-padding-left:12px;
-color:#bebec5;
-line-height:20px;
-margin-left:0;
-margin:5px;
-list-style:decimal;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: red;
+    line-height: 36px;
 }
-.prettyprint .com {
-color:#93a1a1;
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
 }
-.prettyprint .lit {
-color:#AE81FF;
+h2 {
+    font-size: 24px;
 }
-.prettyprint .pun,.prettyprint .opn,.prettyprint .clo {
-color:#F8F8F2;
+h3 {
+    font-size: 18px;
 }
-.prettyprint .fun {
-color:#dc322f;
+h4 {
+    font-size: 16px;
 }
-.prettyprint .str,.prettyprint .atv {
-color:#E6DB74;
+h5 {
+    font-size: 14px;
 }
-.prettyprint .kwd,.prettyprint .tag {
-color:#F92659;
+h6 {
+    font-size: 13px;
 }
-.prettyprint .typ,.prettyprint .atn,.prettyprint .dec,.prettyprint .var{
-color:#A6E22E;
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
 }
-.prettyprint .pln {
-color:#66D9EF;
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+*{
+    -webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+    body,code,pre code,h1,h2,h3,h4,h5,h6 {
+        color: black;
+    }
+    table, pre {
+        page-break-inside: avoid;
+    }
+}
 </style>
 <h1 align="center">E修哥</h1>
 
