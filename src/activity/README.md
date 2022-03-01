@@ -20,7 +20,6 @@ body {
     font-size: 13px;
     line-height: 18px;
     color: #737373;
-    background-color: white;
     margin: 10px 13px 10px 13px;
 }
 table {
