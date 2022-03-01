@@ -3,7 +3,33 @@ page: true
 sidebar: true
 --- -->
 
-<style>
+
+<script setup>
+</script>
+
+<section id="hero">
+    <h1 class="tagline">
+      The
+      <span class="accent">INet</span>
+      <br />Studio
+    </h1>
+</section>
+
+
+<section id="highlights" class="vt-box-container">
+  <p op80 text-lg max-w-150 text-center leading-7>
+    <contributors />
+  </p>
+  </section>
+
+  <section>
+    <div class="footer">
+      MIT Licensed | Copyright © 2022-present INet
+    </div>
+  </section>
+
+
+<style scoped>
 /*markdown 代码样式*/
 tt, code, kbd, samp {
 font-family: consolas;
