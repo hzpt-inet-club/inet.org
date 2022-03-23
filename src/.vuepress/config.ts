@@ -240,7 +240,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         },
         {
           text:'小先生讲堂',
-          link:''
+          link:'/activity/litter-teacher'
         }
       ]
     },
