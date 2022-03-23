@@ -37,7 +37,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         link:'/activity/'
       },
       {
-        text: '功能',
+        text: '友链',
         children: [
           {
             text:'签到',
@@ -54,7 +54,31 @@ export default defineUserConfig<DefaultThemeOptions>({
           {
             text:'2048',
             link:'https://2048.elonehoo.xyz'
-          }
+          },
+          {
+            text:'扫雷',
+            link:'https://minisweeper.elonehoo.xyz'
+          },
+          {
+            text:'随机可爱头像',
+            link:'https://vue-avatar.elonehoo.xyz'
+          },
+          {
+            text:'简单捏人',
+            link:'https://avatar.elonehoo.xyz'
+          },
+          {
+            text:'3D冰墩墩',
+            link:'https://dwen.elonehoo.xyz'
+          },
+          {
+            text:'23点',
+            link:'https://mathler.elonehoo.xyz'
+          },
+          {
+            text:'3D赛车游戏',
+            link:'https://car.elonehoo.xyz'
+          },
         ],
       },
       {
@@ -207,6 +231,16 @@ export default defineUserConfig<DefaultThemeOptions>({
               link:'/blog/detail/design-patterns/22.md'
             }
           ]
+        }
+      ],
+      "/activity/":[
+        {
+          text:'E修哥',
+          link:'/activity/'
+        },
+        {
+          text:'小先生讲堂',
+          link:''
         }
       ]
     },
