@@ -12,11 +12,11 @@ page: true
 
 INet爱网工作室是校“三星社团”，多次荣获校“十佳社团”，“e修哥义务维修活动”项目获立2021—2022学生社团精品培育计划，此活动已开展10年，为学校义务检修机房60余次，服务师生超200余人次。
 
-![step1](/img/activity/brother-e/step1.JPG)
+![step1](./img/brother-e/step1.jpg)
 
-![step2](/img/activity/brother-e/step2.JPG)
+![step2](./img/brother-e/step2.jpg)
 
-![step3](/img/activity/brother-e/step3.JPG)
+![step3](./img/brother-e/step3.jpg)
 
 e修哥义务维修活动开始当天，前来维修电脑的同学络绎不绝，INet爱网工作室的同学们帮助同学们准确分析电脑问题，悉心维修电脑，同时教会同学们如何避免电脑常见的小问题。
 
