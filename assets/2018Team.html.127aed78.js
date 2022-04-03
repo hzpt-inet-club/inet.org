@@ -1,0 +1,1 @@
+const e={key:"v-165233be",path:"/team/2018Team.html",title:"2018\u5E74",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u4EBA\u5458\u7EC4\u6210",slug:"\u4EBA\u5458\u7EC4\u6210",children:[]}],filePathRelative:"team/2018Team.md"};export{e as data};

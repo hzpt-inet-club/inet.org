@@ -1,0 +1,1 @@
+const t={key:"v-9d701904",path:"/blog/introduce/introduce.html",title:"\u4ECB\u7ECD",lang:"zh-CN",frontmatter:{page:!0},excerpt:"",headers:[],filePathRelative:"blog/introduce/introduce.md"};export{t as data};

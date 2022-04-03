@@ -1,0 +1,1 @@
+const t={key:"v-03c6251a",path:"/activity/litter-teacher.html",title:"\u5C0F\u5148\u751F\u8BB2\u5802",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],filePathRelative:"activity/litter-teacher.md"};export{t as data};
