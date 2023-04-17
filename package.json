@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "vuepress dev src",
+    "docs:build": "vuepress build src"
+  },
+  "name": "inet-club-home",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.35"
+  },
+  "dependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.35",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.35",
+    "typescript": "^4.5.5"
+  }
+}
