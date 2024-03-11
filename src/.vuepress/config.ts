@@ -113,6 +113,10 @@ export default defineUserConfig<DefaultThemeOptions>({
     sidebar: {
       "/team/":[
         {
+          text:'2023年',
+          link:'/team/2023Team.md'
+        },
+        {
           text:'现在的',
           link:'/team/README.md'
         },
