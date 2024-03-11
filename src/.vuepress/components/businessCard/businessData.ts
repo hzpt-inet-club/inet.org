@@ -14,7 +14,36 @@ class Team {
 
 export const teams: Map<string, Team[]> = new Map([
   [
-    '现在的',
+    '2023',
+    [
+      {
+        githubName: 'ChenJiaHua1',
+        name: 'ChenJiaHua1',
+        jobTitle: '社长',
+        introduce: 'tryBetter_花有重开日 人无再少年'
+      },
+      {
+        githubName: 'letusdoit2050',
+        jobTitle: '学习部',
+        name: 'letusdoit2050',
+        introduce: '好好学习，天天向上'
+      },
+      {
+        githubName:'HH123483587',
+        name:'HH123483587',
+        jobTitle:'副社长',
+        introduce:'他是个懒狗'
+      },
+      {
+        githubName:'H-guiwa',
+        name:'H-guiwa',
+        jobTitle:'硬件部',
+        introduce:'螺丝鬼娃'
+      }
+    ]
+  ],
+  [
+    '2022',
     [
       {
         githubName: 'guanzitao',
