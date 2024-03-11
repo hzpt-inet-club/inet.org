@@ -117,8 +117,8 @@ export default defineUserConfig<DefaultThemeOptions>({
           link:'/team/2023Team.md'
         },
         {
-          text:'2022年',
-          link:'/team/2022Team.md'
+          text:'现在的',
+          link:'/team/README.md'
         },
         {
           text:'2020年',
