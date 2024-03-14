@@ -1,0 +1,1 @@
+const e={key:"v-1b4deaa9",path:"/introduce/",title:"",lang:"zh-CN",frontmatter:{page:!0,sidebar:!0},excerpt:"",headers:[{level:2,title:"Why INet?",slug:"why-inet",children:[]},{level:2,title:"How It Works?",slug:"how-it-works",children:[]},{level:2,title:"How To Constitute?",slug:"how-to-constitute",children:[]}],filePathRelative:"introduce/README.md"};export{e as data};
