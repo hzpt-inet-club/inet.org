@@ -1,3 +1,4 @@
+
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 import { path } from '@vuepress/utils'
@@ -112,10 +113,10 @@ export default defineUserConfig<DefaultThemeOptions>({
     ],
     sidebar: {
       "/team/":[
-        // {
-        //   text:'2023年',
-        //   link:'/team/2023Team.md'
-        // },
+        {
+          text:'2023年',
+          link:'/team/2023Team.md'
+        },
         {
           text:'2022年',
           link:'/team/2022Team.md'
